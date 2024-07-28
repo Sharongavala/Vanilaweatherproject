@@ -60,15 +60,15 @@ main {
 }
 .container-temperature-value {
   font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
 }
 .container-icon {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-left: 10px;
+  width: 88px;
+  height: 88px;
 }
 .container-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 footer {
