@@ -50,7 +50,7 @@ main {
 .container-details {
   font-size: 16px;
   line-height: 20px;
-  color: rbga(0, 0, 0, 0.6);
+  color: rgba(39, 33, 66, 0.4);
 }
 .container-details strong {
   color: #f65282;
@@ -77,4 +77,30 @@ footer {
   text-align: center;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.6);
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #f65282;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
